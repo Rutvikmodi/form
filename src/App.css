@@ -1,4 +1,4 @@
-.App {
+.App1 {
   text-align: center;
 }
 
@@ -15,13 +15,35 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  height: 20vh;
+  display: flex;
+  padding-top: 5vh;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-decoration-line: underline;
+  justify-content: center;
+  text-decoration-style: double;
+  font-size: calc(10px + 5vmin);
+  color: white;
+}
+.App2 {
+  background-color: palegreen;
+  padding-top: 5vh;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 5px solid black;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
+  text-align: left;
+  padding-left: 1%;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
+}
+.App-table {
 }
 
 .App-link {
